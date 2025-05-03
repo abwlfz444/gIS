@@ -1,0 +1,62 @@
+id,name,type,price
+1,Milk,grocery,4.99
+2,Bread,grocery,2.49
+3,Apples,produce,8.75
+4,Laundry Detergent,household,12.99
+5,Eggs,grocery,3.29
+6,Sliced Ham,deli,6.99
+7,Broccoli,produce,7.50
+8,Tomato Sauce,canned,5.75
+9,Potato Chips,snacks,2.19
+10,Chicken Breasts,frozen,9.99
+11,Yogurt,dairy,4.39
+12,Muffins,bakery,3.99
+13,Bananas,produce,8.25
+14,Paper Towels,household,14.99
+15,Rice,grocery,2.79
+16,Turkey Breast,deli,10.49
+17,Carrots,produce,6.59
+18,Tuna,canned,4.99
+19,Granola Bars,snacks,3.49
+20,Pizza,frozen,11.99
+21,Cheese,dairy,5.25
+22,Bagels,bakery,4.79
+23,Lettuce,produce,7.99
+24,Dish Soap,household,8.99
+25,Pasta,grocery,3.19
+26,Roast Beef,deli,6.29
+27,Onions,produce,5.49
+28,Beans,canned,9.79
+29,Pretzels,snacks,2.99
+30,Ice Cream,frozen,13.99
+31,Soda,grocery,1.99
+32,Cereal,grocery,4.49
+33,Oranges,produce,3.99
+34,Toilet Paper,household,8.29
+35,Salad Mix,produce,4.79
+36,Deli Cheese,deli,7.99
+37,Frozen Vegetables,frozen,3.29
+38,Canned Soup,canned,2.59
+39,Crackers,snacks,2.79
+40,Ice Cream Bars,frozen,5.99
+41,Milk (Almond),dairy,3.99
+42,Bread (Whole Wheat),bakery,3.29
+43,Tomatoes,produce,2.99
+44,Dish Sponges,household,1.79
+45,Rice Cakes,snacks,2.49
+46,Frozen Fish Fillets,frozen,8.99
+47,Yogurt (Greek),dairy,5.29
+48,Muffins (Blueberry),bakery,4.49
+49,Bananas (Organic),produce,5.49
+50,Paper Towels (Recycled),household,11.99
+51,Jasmine Rice,grocery,3.79
+52,Deli Roast Beef,deli,13.99
+53,Baby Carrots,produce,2.99
+54,Canned Tuna (Albacore),canned,4.29
+55,Granola Bars (Variety Pack),snacks,5.99
+56,Frozen Pizza (Supreme),frozen,9.99
+57,Shredded Cheddar,dairy,6.79
+58,Bagels (Sesame),bakery,5.29
+59,Romaine Lettuce,produce,4.99
+60,Dish Soap (Natural),household,7.4961,soot,y,y
+62,chicken,bh,5

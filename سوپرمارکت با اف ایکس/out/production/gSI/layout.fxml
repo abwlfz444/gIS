@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="552.0" prefWidth="871.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+    <children>
+        <TabPane prefHeight="552.0" prefWidth="871.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Products">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="227.0">
+                            <children>
+                                <Label layoutX="43.0" layoutY="59.0" text="Product ID:" />
+                                <TextField fx:id="productIdField" layoutX="170.0" layoutY="55.0" />
+
+                                <Label layoutX="33.0" layoutY="113.0" text="Product Name:" />
+                                <TextField fx:id="productNameField" layoutX="170.0" layoutY="109.0" />
+
+                                <Label layoutX="58.0" layoutY="169.0" text="Price:" />
+                                <TextField fx:id="productPriceField" layoutX="170.0" layoutY="165.0" />
+
+                                <Label layoutX="48.0" layoutY="226.0" text="Quantity:" />
+                                <TextField fx:id="productQuantityField" layoutX="170.0" layoutY="222.0" />
+
+                                <Button layoutX="38.0" layoutY="331.0" onAction="#handleAddProduct" text="Add Product" />
+                                <Button layoutX="159.0" layoutY="331.0" onAction="#handleUpdateProduct" text="Update Product" />
+                                <Button layoutX="295.0" layoutY="331.0" onAction="#handleDeleteProduct" text="Delete Product" />
+
+                                <TableView fx:id="productTableView" layoutX="422.0" layoutY="17.0" prefHeight="491.0" prefWidth="435.0">
+                                    <columns>
+                                        <TableColumn fx:id="idColumn" prefWidth="44.0" text="ID" />
+                                        <TableColumn fx:id="nameColumn" prefWidth="203.0" text="Product Name" />
+                                        <TableColumn fx:id="priceColumn" prefWidth="111.0" text="Price" />
+                                        <TableColumn fx:id="quantityColumn" prefWidth="76.0" text="Quantity" />
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Customers">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <Label layoutX="36.0" layoutY="50.0" text="Customer ID:" />
+                                <TextField fx:id="customerIdField" layoutX="146.0" layoutY="46.0" />
+
+                                <Label layoutX="26.0" layoutY="115.0" text="Customer Name:" />
+                                <TextField fx:id="customerNameField" layoutX="146.0" layoutY="111.0" />
+
+                                <Label layoutX="52.0" layoutY="183.0" text="Phone:" />
+                                <TextField fx:id="customerPhoneField" layoutX="146.0" layoutY="179.0" />
+
+                                <Button layoutX="24.0" layoutY="339.0" onAction="#handleAddCustomer" text="Add Customer" />
+                                <Button layoutX="131.0" layoutY="339.0" onAction="#handleUpdateCustomer" text="Update Customer" />
+                                <Button layoutX="259.0" layoutY="339.0" onAction="#handleDeleteCustomer" text="Delete Customer" />
+
+                                <TableView fx:id="customerTableView" layoutX="403.0" layoutY="11.0" prefHeight="501.0" prefWidth="441.0">
+                                    <columns>
+                                        <TableColumn fx:id="customerIdColumn" prefWidth="45.0" text="ID" />
+                                        <TableColumn fx:id="customerNameColumn" prefWidth="177.0" text="Customer Name" />
+                                        <TableColumn fx:id="customerPhoneColumn" prefWidth="218.0" text="Phone" />
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>
